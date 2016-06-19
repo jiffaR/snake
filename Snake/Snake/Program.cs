@@ -18,6 +18,21 @@ namespace Snake
 
             p2.Draw();
 
+            List<string> numList = new List<string>();
+            numList.Add("hui");
+            numList.Add("pzda");
+            numList.Add("Djigurda");
+
+            foreach (string i in numList)
+            {
+                Console.WriteLine(i);
+            }
+
+            List<Point> pList = new List<Point>();
+            pList.Add(p1);
+            pList.Add(p2);
+
+
             Console.ReadLine();
         }
     }
